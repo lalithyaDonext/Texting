@@ -8,6 +8,7 @@ import Header from '../Header/Header';
 
 
 const UserBackground = () => {
+  
   const userType = 'seller'; // Change this value based on the user type
   const username = 'James Perera'; // Change this value to the actual username
 
