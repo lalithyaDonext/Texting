@@ -1,0 +1,158 @@
+.header {
+    font-family: 'Inter';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 280px;
+    padding-right: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    
+    background-color: #F9F9F9;
+    height: 70px;
+    z-index: 0; /* Ensure the header is above other elements */
+  }
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .greeting {
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  
+  .logout {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-right: 20px;
+    font-size: 14px;
+  }
+  
+  .logout-icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
+  .category-selection {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  .category-icon {
+    margin-right: 5px;
+  }
+  
+  .toggle-icon {
+    position: relative;
+    width: 129px;
+    height: 30px;
+    background-color: #e0e0e0;
+    border-radius: 15px;
+  }
+  
+  .toggle-bar {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translate(0, -50%);
+    width: 20px;
+    height: 20px;
+    background-color: #777777;
+    border-radius: 50%;
+  }
+  
+/* ...existing styles... */
+
+.search-wrapper {
+    display: flex;
+    align-items: center;
+    width: 337px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: white;
+    border: 1px solid gray;
+    border-right: 0;
+  }
+  
+  .search-wrapper.buyer {
+    justify-content: flex-end;
+  }
+  
+  .search-bar {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin-left: 10px;
+    flex: 1;
+    
+    /* border-color: black; */
+  }
+  
+  .dropdown-bar {
+    background-color: #9BEEFB;
+    width: 65px;
+    height: 40px;
+    border-bottom-right-radius: 6px;
+    border-top-right-radius: 6px;
+    padding: 5px;
+    margin-left: 10px;
+    color: #0D6CAF;
+    border: 1px solid #9BEEFB;
+    
+  }
+  
+  .Search-icon{
+    color: aliceblue;
+  }
+  /* ...existing styles... */
+  
+  
+
+  
+  .location-icon,
+  .cart-icon {
+    color: #777777;
+    margin-right: 10px;
+  }
+  
+  .location-icon {
+    font-size: 20px;
+  }
+  
+  .cart-icon {
+    font-size: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      padding: 8px;
+    }
+  
+    .greeting {
+      display: none;
+    }
+  
+    .location {
+      display: none;
+    }
+  }
+  
