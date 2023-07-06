@@ -70,7 +70,7 @@
   .toggle-bar {
     position: absolute;
     top: 50%;
-    left: 10px;
+    left: 5px;
     transform: translate(0, -50%);
     width: 20px;
     height: 20px;
@@ -100,7 +100,7 @@
     align-items: center;
     background-color: white;
     border-radius: 4px;
-    padding: 4px 8px;
+    padding: 4px ;
     margin-left: 10px;
     flex: 1;
     
@@ -108,20 +108,36 @@
   }
   
   .dropdown-bar {
-    background-color: #9BEEFB;
+    background-color: #3B8BF1;
     width: 65px;
     height: 40px;
     border-bottom-right-radius: 6px;
     border-top-right-radius: 6px;
     padding: 5px;
     margin-left: 10px;
-    color: #0D6CAF;
-    border: 1px solid #9BEEFB;
+    color: #FFFFFF;
+    border: 1px solid #3B8BF1;
     
   }
   
   .Search-icon{
-    color: aliceblue;
+    color: black;
+    width: 24px;
+    height: 24px;
+    
+  }
+
+  .search-text{
+    margin-left: 15px;
+    color: #000;
+text-align: center;
+
+/* Texts/P4/Regular */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
   }
   /* ...existing styles... */
   
@@ -154,5 +170,9 @@
     .location {
       display: none;
     }
+  }
+
+  .seller-Location{
+    margin-right: 15px;
   }
   

@@ -1,10 +1,11 @@
 import React from "react";
 import BackgroundRegister from "../Background/BackgroundRegister";
 import RegisterType from "./RegisterType";
+import "./login.css"
 
 const TypeSelection = () => {
   return (
-    <div className="absolute flex">
+    <div className="absolute flex login-text">
       <div className="">
         <BackgroundRegister />
       </div>
@@ -24,7 +25,7 @@ const TypeSelection = () => {
           </div>
 
           <div className="absolute ml-[150px]  mt-[40px]   h-[45px] ">
-            <div className="text-black font-semibold font-Montserrat text-[20px] leading-[44px]">
+            <div className="text-black  font-Montserrat text-[18px] leading-[44px]">
               Already have an account?
             </div>
           </div>
@@ -36,7 +37,7 @@ const TypeSelection = () => {
           </div>
 
           <div className="absolute  mt-[190px] ml-[290px]  h-[45px] ">
-            <div className="text-[#4A037D] font-semibold font-Montserrat text-[16px] leading-[24px] ">
+            <div className="text-[#4A037D]  font-Montserrat text-[16px] leading-[24px] ">
               Need Help ?
             </div>
           </div>

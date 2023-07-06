@@ -6,6 +6,7 @@ import RegisterMain from "./Register/RegisterMain";
 import LoginMain from "./Login/LoginMain";
 import TypeSelection from "./Register/TypeSelection";
 import UserBackground from "./UserBackground/User/Userbackground";
+import RegiterViewBackground from "./RegiterBackground/RegiterViewBackground";
 
 
 
@@ -13,7 +14,7 @@ function App() {
   return (
   <Router>
     <Routes>
-      <Route path="/" element={<UserBackground />} />
+      <Route path="/" element={<LoginMain />} />
     </Routes>
     </Router>
   );

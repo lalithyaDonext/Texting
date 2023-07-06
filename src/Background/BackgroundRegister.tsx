@@ -6,7 +6,7 @@ import BackgroundCard from "./BackgroundCard";
 
 const BackgroundRegister = () => {
   return (
-    <div className="h-screen relative">
+    <div className="h-[100vh] relative">
 
       <img src={BackgroundImage} alt="BackgroundImage" className="h-full" />
 
@@ -23,7 +23,7 @@ const BackgroundRegister = () => {
         </div>
       </div>
 
-      <div className="absolute top-[480px] left-[45px] flex items-center ">
+      <div className="absolute top-[440px] left-[25px] flex items-center ">
         <BackgroundCard />
       </div>
       

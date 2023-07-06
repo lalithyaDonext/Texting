@@ -3,9 +3,10 @@ import BackgroundRegister from "../Background/BackgroundRegister";
 import Register from "../Register/Register";
 import Login from "./login";
 
+
 const LoginMain = () => {
   return (
-    <div className="absolute flex">
+    <div className="absolute flex fixed">
 
       <div className="">
         <BackgroundRegister />

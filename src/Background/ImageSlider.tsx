@@ -42,14 +42,14 @@ const ImageSlider: React.FC = () => {
         ))}
       </div>
 
-      <div className="flex mt-[630px] ml-[130px]">
+      <div className="flex mt-[630px] ml-[120px]">
 
         {images.map((_, index) => (
 
           <div key={index} className="flex items-center justify-center">
             <span
-              className={`inline-block w-4 h-4 mx-1 rounded-full bg-gray-500 ${
-                index === activeIndex ? "bg-gray-200" : ""
+              className={`inline-block w-[19px] h-[19px] mx-1 rounded-full  border-[1px] border-[#E6FCFF] ${
+                index === activeIndex ? "bg-[#F3D8FD] border-[1px] border-[#E6FCFF]" : ""
               }`}
               onClick={() => handleDotClick(index)}
             ></span>

@@ -1,0 +1,11 @@
+.email-input{
+    display: flex;
+    padding: 19px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    width: 479px;
+    height: 62px;
+    border-radius: 6px;
+    border: 0.5px solid  #0D6CAF;
+}
