@@ -3,18 +3,19 @@ import BackgroundRegister from "./Background/BackgroundRegister";
 import ImageSlider from "./Background/ImageSlider";
 import Register from "./Register/Register";
 import RegisterMain from "./Register/RegisterMain";
-import LoginMain from "./Login/LoginMain";
+// import LoginMain from "./Login/LoginMain";
 import TypeSelection from "./Register/TypeSelection";
 import UserBackground from "./UserBackground/User/Userbackground";
 import RegiterViewBackground from "./RegiterBackground/RegiterViewBackground";
-
+// import RegisterBackground from "./RegisterDesigns/RegisterBackground/RegisterBackground";
+import Auth from "./auth/Auth";
 
 
 function App() {
   return (
   <Router>
     <Routes>
-      <Route path="/" element={<LoginMain />} />
+      <Route path="/" element={<UserBackground />} />
     </Routes>
     </Router>
   );

@@ -10,7 +10,7 @@ import SellerproductInput from '../../Inputs/sellerproductInput';
 import SmallDropdown from '../../Inputs/SmallDropdown';
 import SmallInput from '../../Inputs/smallInput';
 import Drafted from '../../Inputs/drafted';
-import {Send} from 'react-iconly'
+import {Send ,ArrowLeft} from 'react-iconly'
 
 const PostStepTwo = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -23,7 +23,7 @@ const PostStepTwo = () => {
     <div className='seller-post-container mb-[40px]'>
       <div className='seller-post-title'>
         <div className='seller-post-back-nav'>
-          <BsArrowLeft size={32} />
+          <ArrowLeft size={32} stroke='light' />
         </div>
         <div className='seller-post-title-content'>
           {/* Add New Post */}
@@ -40,7 +40,7 @@ const PostStepTwo = () => {
             <div className='image-view-post'>
             <img src={postImage} alt='Product Image' width='112' height='134' />
             <div className='upload-details'>
-            <span>Change Product Image</span>
+            <span>Update Product Image</span>
             <div className='dropdown-button' onClick={toggleDropdown}>
               <BsUpload className='upload-icon' size={24} />
            
@@ -76,7 +76,7 @@ const PostStepTwo = () => {
                 <div className='label-one'>
                 2.
                 <span> </span>
-                Select Sub Category**
+                Select Sub Category*
                 </div>
                 <div className='Seller-post-input'>
                 <SelectInput

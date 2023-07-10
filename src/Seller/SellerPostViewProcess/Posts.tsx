@@ -1,13 +1,13 @@
 import React from 'react';
 import './posts.css'; 
 import { BsArrowLeft, BsPlus, BsChevronRight } from "react-icons/bs";
-import { ChevronRight} from 'react-iconly'
+import {ArrowLeft, ChevronRight} from 'react-iconly'
 const Posts = () => {
   return (
     <div className='seller-post-container'>
       <div className='seller-post-title'>
         <div className='seller-post-back-nav'>
-          <BsArrowLeft size={32} />
+          <ArrowLeft size={32} stroke='light' />
         </div>
         <div className='seller-post-title-content'>
           Add New Post

@@ -1,0 +1,131 @@
+html, body {
+    height: 100% !important;
+
+}
+#root{
+    height: 100% !important;
+}
+
+.unik-app .row{
+    height: 100% !important;
+
+    margin: 0;
+}
+
+/*=======================================================================
+ Blur Eclipse
+=========================================================================*/
+
+.blur-eclipse {
+    background: linear-gradient(95.88deg, #9f00d9 0%, #00ddff 129.21%);
+    filter: blur(250px);
+    width: 211px;
+    height: 208px;
+    z-index: -5;
+}
+
+#blur-eclipse-one {
+    position: absolute;
+    top: 259px;
+    right: 750px;
+}
+#blur-eclipse-two {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+}
+#blur-eclipse-three {
+    position: absolute;
+    bottom: 0px;
+    right: -34px;
+}
+
+
+/*=======================================================================
+ Auth - Login
+=========================================================================*/
+.login-input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 19px 24px;
+    gap: 8px;
+    max-width: 623px;
+    max-height: 62px;
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid #0D6CAF;
+    background-color: transparent !important;
+    border-radius: 6px;
+}
+
+
+.signup-form-input{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 19px 24px;
+    gap: 8px;
+    max-width: 303.5px;
+    max-height: 44px;
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid #0D6CAF;
+    background-color: transparent !important;
+    border-radius: 6px;
+    color: var(--text-colour-default, #000);
+
+    /* Texts/P2/Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.signup-form-input::placeholder {
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+
+  .signup-form-input-large{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 19px 24px;
+    gap: 8px;
+    max-width: 623px;
+    max-height: 44px;
+    height: 100%;
+    width: 100%;
+    border: 0.5px solid #0D6CAF;
+    background-color: transparent !important;
+    border-radius: 6px;
+    color: var(--text-colour-default, #000);
+
+    /* Texts/P2/Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+
+  }
+
+  .signup-form-input-large::placeholder {
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  
+
+
+
