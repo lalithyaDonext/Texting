@@ -29,7 +29,7 @@ const Auth = () => {
       </div>
       <div  style={{ minHeight: '100vh',width:'60%' }}>
       <div style={{ height: '100vh',  }}>
-            <SignInComponent/>
+            <SignUpComponents/>
        </div>
       </div>
     </Row>

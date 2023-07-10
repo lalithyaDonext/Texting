@@ -22,7 +22,7 @@ const UserBackground = () => {
         <SideBar />
         <div className="page-content">
           <div className="rounded-corner-space">
-            <Posts/>
+            <PostStepTwo/>
           </div>
         </div>
       </div>

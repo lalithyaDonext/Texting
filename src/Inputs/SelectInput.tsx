@@ -1,16 +1,19 @@
-import React from 'react'
+import React from 'react';
+import './SelectInput.css';
 
-const SelectInput = ({placeholder,option}:any) => {
+const SelectInput = ({placeholder,option }:any) => {
   return (
-    <div>
-    <select
-      className="absolute w-[504px] h-[44px] border-[1px] border-solid border-[#0D6CAF] rounded-[4px] pl-[20px] leading-[14px] text-[#000000] text-opacity-[50%] font-normal font-inter text-[14px] leading-[15px] outline-none"
-      placeholder={placeholder}
-    >
-      <option className="text-[18px] text-[#000000] text-opacity-[50%] ">{option}</option>
-    </select>
-  </div>
-  )
-}
+    <div className="select-input-group">
+      <select className="select-form-select rounded-start" placeholder={placeholder}>
+        <option>{option}</option>
+      </select>
+      <div className="select-input-group-append">
+        <span className="select-input-group-text">
+          <i className="bi bi-caret-down-fill bigger-icon"></i>
+        </span>
+      </div>
+    </div>
+  );
+};
 
-export default SelectInput
+export default SelectInput;

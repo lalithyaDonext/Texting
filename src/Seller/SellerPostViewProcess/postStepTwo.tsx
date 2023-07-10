@@ -10,7 +10,8 @@ import SellerproductInput from '../../Inputs/sellerproductInput';
 import SmallDropdown from '../../Inputs/SmallDropdown';
 import SmallInput from '../../Inputs/smallInput';
 import Drafted from '../../Inputs/drafted';
-import {Send ,ArrowLeft} from 'react-iconly'
+import {Send ,ArrowLeft, CloseSquare, Upload} from 'react-iconly'
+import UploadImageDropDown from './UploadImageDropDown';
 
 const PostStepTwo = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -38,13 +39,17 @@ const PostStepTwo = () => {
         <div className='post-main-card-two'>
           <div className='post-main-card-content'>
             <div className='image-view-post'>
-            <img src={postImage} alt='Product Image' width='112' height='134' />
+              <div style={{display:'flex', flexDirection:'column'}}>
+            <CloseSquare size={17} stroke='light' />
+        
+            <img src={postImage} alt='Product Image' width='112' height='134' style={{marginTop:'-16px'}}/>
+            </div>
             <div className='upload-details'>
-            <span>Update Product Image</span>
+            <span style={{fontSize:'16px', fontWeight:'400'}}>Change Product Image</span>
             <div className='dropdown-button' onClick={toggleDropdown}>
-              <BsUpload className='upload-icon' size={24} />
-           
-              <span >Upload Image</span>
+              <Upload size={24} />
+           <span>    </span>
+              <span style={{marginLeft:"14px"}}>Upload Image</span>
               <div className={`dropdown ${isOpen ? 'open' : ''}`}>
                 <IoIosArrowDown className='arrow-icon' size={24} />
                 <ul className='dropdown-ui'>
@@ -66,9 +71,9 @@ const PostStepTwo = () => {
                 Select Main Category*
                 </div>
                 <div className='Seller-post-input'>
-                  <SelectInput
+                <SelectInput
                   placeholder='Clothes'
-                  option='Clothes'
+                  option='Men’s Clothes'
                   />
                 </div>
                 </div>
@@ -159,7 +164,7 @@ const PostStepTwo = () => {
       <div className='seller-post-button'>
         <button className='post-button'>
         {/* Post Product */}
-        <div className='post-button-cont'>
+        <div className='post-button-cont' style={{marginRight:'10px'}}>
         Update Product
         </div>
        

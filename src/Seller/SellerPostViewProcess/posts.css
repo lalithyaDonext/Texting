@@ -43,10 +43,10 @@
     width: 100%;
     /* height: 480px; */
     border-radius: 10px;
-    padding: 12px 62px 30px 62px;
+    padding: 12px 62px 30px 40px;
     /* margin-bottom: 10px; */
     margin-top: 20px;
-    margin-left: 40px;
+    margin-left: 16px;
     margin-right: 20px;
     /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
     /* Other styles for the card */
@@ -73,17 +73,19 @@
   font-style: normal;
   font-weight: 400;
   line-height: 150%;
+  text-align: left;
 }
 
 .post-main-card-image-upload-container{
     display: flex;
     flex-direction: row;
     gap: 90px;
+    margin-left: 10px;
 
 }
 
 .image-upload-large-card{
-  ont-family: Inter;
+    font-family: Inter;
     display: flex;
     flex-direction: column;
     margin-top: 20px;
@@ -101,7 +103,7 @@
 
 /* ... other existing styles ... */
 
-.image-upload-small-card-set {
+/* .image-upload-small-card-set {
    
     display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -109,7 +111,7 @@
     margin-top: 20px;
    
     gap: 20px;
-}
+} */
   
 .image-upload-small-card {
     width: 150px; /* Adjust card width to fit two cards per row with 10px margin */
@@ -121,7 +123,22 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 10px;
+    /* margin-top: 1px; */
     /* position: relative; */
+}
+
+.image-upload-small-card-view {
+  width: 145px; /* Adjust card width to fit two cards per row with 10px margin */
+  height: 100px;
+  border-radius: 10px;
+  background-color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  /* margin-top: 12px; */
+  /* position: relative; */
 }
   
 .image-upload-small-card p {
@@ -131,6 +148,16 @@
     font-weight: 400;
     line-height: 10px;
     text-align: center;
+    
+}
+
+.image-upload-small-card-view p {
+  font-family: Poppins;
+  /* font-family: Inter; */
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
 }
   
 .plus-icon {
@@ -272,12 +299,13 @@
   .input-set-one{
     display: flex;
     flex-direction: row;
-    gap:363px;
+    gap:35px;
   }
   .label-one{
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px
+    line-height: 24px;
+  
   }
 
   .Seller-post-input{
@@ -305,13 +333,13 @@
   }
 
   .seller-offr-input{
-    margin-left: 420px;
+    margin-left: 390px;
   }
   .seller-post-button {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    margin-right: 16px;
+    margin-top: 60px;
+    margin-right: 190px;
 }
   .post-button {
     display: flex;
@@ -319,7 +347,7 @@
     justify-content: center;
     background-color: #9F00D9;
     color: white;
-    width: 183px;
+    width: 208px;
     height: 48px;
     border-radius: 6px;
     border: none;
