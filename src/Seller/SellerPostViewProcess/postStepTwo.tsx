@@ -35,6 +35,7 @@ const PostStepTwo = () => {
           <Drafted/>
         </div>
       </div>
+      <div style={{display:'flex', flexDirection:'column', gap:'80px'}}>
       <div className='seller-post-main-card'>
         <div className='post-main-card-two'>
           <div className='post-main-card-content'>
@@ -73,7 +74,7 @@ const PostStepTwo = () => {
                 <div className='Seller-post-input'>
                 <SelectInput
                   placeholder='Clothes'
-                  option='Men’s Clothes'
+                  option='Clothes'
                   />
                 </div>
                 </div>
@@ -85,7 +86,7 @@ const PostStepTwo = () => {
                 </div>
                 <div className='Seller-post-input'>
                 <SelectInput
-                  placeholder='Clothes'
+                  placeholder='Men’s Clothes'
                   option='Men’s Clothes'
                   />
                 </div>
@@ -171,6 +172,9 @@ const PostStepTwo = () => {
          <Send size={24}  />
         </button>
       </div>
+
+      </div>
+
     </div>
   );
 }

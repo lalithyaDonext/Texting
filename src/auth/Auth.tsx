@@ -20,16 +20,16 @@ const Auth = () => {
             <span id="blur-eclipse-two" className="blur-eclipse"/>
             <span id="blur-eclipse-one" className="blur-eclipse"/>
             <UnikLogo src={UnikLogoImage}/>
-      <div  style={{ padding: 0,  width:'40%' }}>
+      <div  style={{ padding: 0,  width:'50%' }}>
         <DivSliderHolder>
           <div style={{ width: '100%', height: '100vh' }}>
             <SliderComponent />
           </div>
         </DivSliderHolder>
       </div>
-      <div  style={{ minHeight: '100vh',width:'60%' }}>
+      <div  style={{ minHeight: '100vh',width:'50%' }}>
       <div style={{ height: '100vh',  }}>
-            <SignUpComponents/>
+            <SignUpDetailFormComponent/>
        </div>
       </div>
     </Row>
