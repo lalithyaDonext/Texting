@@ -104,6 +104,24 @@ export const DivFormContentContainer = styled.div`
   }
 `;
 
+export const DivSignUpFormContentContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 30px;
+  width: 100%;
+  @media only screen and (max-width: 576px)
+  {
+    gap: 15px;
+  }
+  @media only screen and (max-width: 1400px)
+  {
+    gap: 25px;
+  }
+`;
+
 export const DivFormControllers = styled.div`
   display: flex;
   flex-direction: column;
@@ -193,6 +211,17 @@ export const SignInFormControllerContainer = styled.div`
   display: flex;
   flex-direction: column;
   align-items: flex-end;
+  padding: 0px;
+  gap: 26px;
+  max-width: 623px;
+  width: 100% !important;
+`;
+
+export const SignUpFormControllerContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 0px;
   gap: 26px;
   max-width: 623px;

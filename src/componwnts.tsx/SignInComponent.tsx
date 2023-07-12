@@ -42,10 +42,10 @@ const SignInComponent = () =>{
                                               placeholder="Enter Your email"/>
 
                         </FromGroupFluid>
-                        <DivReset>
+                        {/* <DivReset>
                             <TextP3Regular>Forgot Password? <span
                                     className="text-primary">Reset Here</span></TextP3Regular>
-                        </DivReset>
+                        </DivReset> */}
                         <Button className="btn-primary btn-sign-in">Take me in!</Button>
 
                     </SignInFormControllerContainer>

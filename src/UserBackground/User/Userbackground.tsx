@@ -7,9 +7,15 @@ import Header from '../Header/Header';
 import Posts from '../../Seller/SellerPostViewProcess/Posts';
 import PostStepTwo from '../../Seller/SellerPostViewProcess/postStepTwo';
 import SellerFolowers from '../../Seller/SellerFollowers/SellerFolowers';
+<<<<<<< HEAD
 import SellerPostInDetail from '../../Seller/SellerPostInDetail/SellerPostInDetail';
 
 
+=======
+import EditPostStatus from '../../Seller/SellerPostEdit/EditPostStatus';
+import AddPostTwo from '../../Seller/SellerPostAdd/AddPostTwo';
+import AddpostSuccess from '../../Seller/SellerPostAdd/AddPostSuccess';
+>>>>>>> 397a602b09a902f44fc2d821e53b4f53e86dc84f
 
 const UserBackground = () => {
 
@@ -23,7 +29,11 @@ const UserBackground = () => {
         <SideBar />
         <div className="page-content">
           <div className="rounded-corner-space">
+<<<<<<< HEAD
             <SellerPostInDetail/>
+=======
+            <AddpostSuccess/>
+>>>>>>> 397a602b09a902f44fc2d821e53b4f53e86dc84f
           </div>
         </div>
       </div>
