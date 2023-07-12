@@ -3,7 +3,7 @@ import {
     DivFormContentContainer, DivFormControllers, DivFormControlSocialMedia,
     DivFormHeader,
     DivFormHolder,
-    DivFormSignInTitle, DivReset, SignInFormControllerContainer, SignInFormFooter, SocialMediaContainer
+    DivFormSignInTitle, DivReset, DivSignUpFormContentContainer, SignInFormControllerContainer, SignInFormFooter, SignUpFormControllerContainer, SocialMediaContainer
 } from "../styles/tsx/Auth/AuthStyle";
 import {Button, Form, Image} from "react-bootstrap";
 import ArrowLeft from "../images/icon/light/arrow/ArrowLeft.svg";
@@ -13,7 +13,7 @@ import { SocialMediaIcon, SocialMediaRound } from "./social_media_round";
 import FaceBook from '../images/social_media/Facebook.svg'
 import Google from '../images/social_media/Google.svg'
 import Instagram from '../images/social_media/Instagram.svg'
-import { FormFluid, FromGroupFluid } from "../styles/tsx/Style";
+import { FormFluid, FromGroupFluid, SignUpFromGroupFluid } from "../styles/tsx/Style";
 import StepperComponent from "./StepperComponent";
 import SignUpToggleIcon from "./SignUpToggleIcon";
 import '../Register/register.css'
@@ -26,10 +26,12 @@ const SignUpComponents = () => {
                 <Image src={ArrowLeft}/>
         </DivFormHeader>
 
-        <DivFormContentContainer>
+        <DivSignUpFormContentContainer>
             
             {/* <DivFormSignInTitle>  */}
             <StepperComponent></StepperComponent>
+
+            <div style={{ display: 'flex',flexDirection:'column',gap:'16px'}}>
             <TextP4Regular>Register as</TextP4Regular>
             <div style={{ width:'100%' , display:'flex' , justifyContent:'end' , alignItems:'end'}}>
             <div className="toggle-icon-signup-container" style={{width:'119px', height:'44px' , backgroundColor:'#F9F9F9' , borderRadius: '30px',padding: '8px 18px 8px 10px' , alignItems:'center'}}>
@@ -37,7 +39,7 @@ const SignUpComponents = () => {
                 <div className="toggle-icon-signup-content">Seller</div>
               </div>
             </div>
-                
+            </div> 
                 {/* <SecondaryTitleMedium>Login</SecondaryTitleMedium> */}
                 
                 {/* </DivFormSignInTitle> */}
@@ -51,20 +53,24 @@ const SignUpComponents = () => {
                     <SocialMediaRound><SocialMediaIcon src={Instagram}/></SocialMediaRound>
                     </SocialMediaContainer>
                 </DivFormControlSocialMedia>
-                <TextP3Regular>Or</TextP3Regular>
+                {/* <TextP3Regular>Or</TextP3Regular> */}
                 <FormFluid>
-                    <SignInFormControllerContainer>
-                        <FromGroupFluid>
-                            <Form.Control className="login-input" type="email"
+                    <SignUpFormControllerContainer>
+                        <div style={{gap:'12px', display:'flex', flexDirection: 'column', alignItems:'center'}}>
+                        <TextP3Regular>Or</TextP3Regular>
+
+                        <SignUpFromGroupFluid>
+                            <Form.Control className="signup-input" type="email"
                                               placeholder="Enter Your email"/>
 
-                        </FromGroupFluid>
+                        </SignUpFromGroupFluid>
 
                         <Button className="btn-primary btn-sign-up" variant="primary" size="lg" style={{alignItems:'center'}}>
                         Continue with Email
                         </Button>
+                        </div>
 
-
+                        <div style={{gap:'12px', display:'flex', flexDirection: 'column', alignItems:'center'}}>
                         <div style={{ width:'100%' , display:'flex' , justifyContent:'center' , alignItems:'center'}}>
                         <TextP3Regular  >External Wallet</TextP3Regular>
                         </div>
@@ -72,14 +78,15 @@ const SignUpComponents = () => {
                         <Button className="btn-primary btn-sign-up" variant="primary" size="lg" style={{alignItems:'center'}}>
                         Connect with Wallet
                         </Button>
+                        </div>
 
-                    </SignInFormControllerContainer>
+                    </SignUpFormControllerContainer>
                 </FormFluid>    
             </DivFormControllers>
            
             
             
-        </DivFormContentContainer>
+        </DivSignUpFormContentContainer>
 
         </DivFormContent>
     </DivFormHolder>

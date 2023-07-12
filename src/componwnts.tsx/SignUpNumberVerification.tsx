@@ -30,7 +30,7 @@ const SignUpNumberVerification = () => {
             
             {/* <DivFormSignInTitle>  */}
             <StepperComponent></StepperComponent>
-            <div style={{marginTop:'-64px'}} >
+            <div style={{marginTop:'-34px'}} >
             <TextH3Semibold>Verify Your Phone Number</TextH3Semibold>
             </div>
             <div style={{width:'430px' , height:'42px' , display:'flex' , flexDirection:'column', justifyContent:'end',alignItems:'end'}}>

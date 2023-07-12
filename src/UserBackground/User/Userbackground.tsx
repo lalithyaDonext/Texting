@@ -7,10 +7,20 @@ import Header from '../Header/Header';
 import Posts from '../../Seller/SellerPostViewProcess/Posts';
 import PostStepTwo from '../../Seller/SellerPostViewProcess/postStepTwo';
 import SellerFolowers from '../../Seller/SellerFollowers/SellerFolowers';
+
 import Notification from '../../Seller/SellerNotification/Notification';
 import SellerInbox from '../../Seller/SellerInbox/SellerInbox';
 import Inbox from '../../Seller/SellerInbox/Inbox';
 
+
+import SellerPostInDetail from '../../Seller/SellerPostInDetail/SellerPostInDetail';
+
+
+
+
+import EditPostStatus from '../../Seller/SellerPostEdit/EditPostStatus';
+import AddPostTwo from '../../Seller/SellerPostAdd/AddPostTwo';
+import AddpostSuccess from '../../Seller/SellerPostAdd/AddPostSuccess';
 
 
 const UserBackground = () => {
@@ -25,7 +35,10 @@ const UserBackground = () => {
         <SideBar />
         <div className="page-content">
           <div className="rounded-corner-space">
+
             <Inbox/>
+
+
           </div>
         </div>
       </div>
