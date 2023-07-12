@@ -1,0 +1,42 @@
+.notification-container {
+    padding-bottom: 15px;
+    padding-left: 190px;
+    font-size: 24px;
+    padding-top: 48px;
+    display: flex;
+    flex-direction: column;
+    font-family:Poppins; 
+    font-weight: 600; 
+    justify-content: start;  
+  }
+
+  .checkbox-container{
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-family: Poppins;
+    display: flex;
+    padding-top: 24px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    margin-left: 8px;
+    gap: 12px;
+
+  }
+
+  .underline {
+    width: 999px;
+    height: 2px;
+    align-content: 125px;
+    background-color: #CBCBCB;
+    margin-bottom: 20px;
+  }
+
+  .underline-2 {
+    width: 999px;
+    height: .5px;
+    align-content: center;
+    background-color: #F3D8FD;
+    margin-bottom: 20px;
+  }
+  
