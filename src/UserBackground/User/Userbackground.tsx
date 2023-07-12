@@ -7,6 +7,9 @@ import Header from '../Header/Header';
 import Posts from '../../Seller/SellerPostViewProcess/Posts';
 import PostStepTwo from '../../Seller/SellerPostViewProcess/postStepTwo';
 import SellerFolowers from '../../Seller/SellerFollowers/SellerFolowers';
+import Notification from '../../Seller/SellerNotification/Notification';
+import SellerInbox from '../../Seller/SellerInbox/SellerInbox';
+import Inbox from '../../Seller/SellerInbox/Inbox';
 
 
 
@@ -22,7 +25,7 @@ const UserBackground = () => {
         <SideBar />
         <div className="page-content">
           <div className="rounded-corner-space">
-            <Posts/>
+            <Inbox/>
           </div>
         </div>
       </div>
