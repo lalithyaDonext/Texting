@@ -25,7 +25,26 @@ const Posts = () => {
                 Drag and drop here
               </p> 
             </div>
-            <div className='image-upload-small-card-set'>
+            <div style={{display:'flex', flexDirection:'column', gap:'10px'}}>
+              <div style={{display:'flex', flexDirection:'row', gap:'10px'}}>
+              <div className='image-upload-small-card-view'>
+                
+                <p>
+                  Click to add images or Video <br/>
+                  Drag and drop here
+                </p> 
+                <BsPlus size={42} className='plus-icon' style={{marginTop:'20px'}}/>
+              </div>
+              <div className='image-upload-small-card-view'>
+                
+                <p>
+                  Click to add images or Video <br/>
+                  Drag and drop here
+                </p> 
+                <BsPlus size={42} className='plus-icon' style={{marginTop:'20px'}}/>
+              </div>
+              </div>
+              <div style={{display:'flex', flexDirection:'row', gap:'10px'}}>
               <div className='image-upload-small-card'>
                 <BsPlus size={42} className='plus-icon' />
                 <p>
@@ -33,6 +52,7 @@ const Posts = () => {
                   Drag and drop here
                 </p> 
               </div>
+
               <div className='image-upload-small-card'>
                 <BsPlus size={42} className='plus-icon' />
                 <p>
@@ -40,20 +60,7 @@ const Posts = () => {
                   Drag and drop here
                 </p> 
               </div>
-              <div className='image-upload-small-card'>
-                <BsPlus size={42} className='plus-icon' />
-                <p>
-                  Click to add images or Video <br/>
-                  Drag and drop here
-                </p> 
-              </div>
-              <div className='image-upload-small-card'>
-                <BsPlus size={42} className='plus-icon' />
-                <p>
-                  Click to add images or Video <br/>
-                  Drag and drop here
-                </p> 
-              </div>
+              </div> 
             </div>
           </div>
         </div>

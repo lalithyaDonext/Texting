@@ -8,6 +8,13 @@ export const FromGroupFluid = styled.div`
   width: 100% !important;
 `;
 
+export const SignUpFromGroupFluid = styled.div`
+  width: 100% !important;
+  display: flex;
+    flex-direction: row;
+    justify-content: center;
+`;
+
 export const UnikLogo = styled.img`
   width: 191.85px;
   position: absolute;
