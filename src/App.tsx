@@ -15,13 +15,7 @@ function App() {
   return (
   <Router>
     <Routes>
-<<<<<<< HEAD
       <Route path="/" element={<UserBackground />} />
-=======
-      {/* <Route path="/" element={<UserBackground />} /> */}
-      <Route path="/" element={<UserBackground />} />
-
->>>>>>> 397a602b09a902f44fc2d821e53b4f53e86dc84f
     </Routes>
     </Router>
   );
