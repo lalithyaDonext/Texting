@@ -1,0 +1,325 @@
+.buyer-profile-container{
+    display: flex;
+    padding: 24px 32px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.buyer-profile-container-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.buyer-profile-content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    align-self: stretch;
+}
+
+.buyer-profile-title{
+    display: flex;
+    width: 1090px;
+    align-items: center;
+    gap: 16px;
+}
+
+.left-arrow{
+    width: 32px;
+    height: 32px;
+    flex-shrink: 0;
+}
+
+.buyer-profile-title-content{
+    color: #000;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.buyer-profile-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.buyer-profile-details-leftside{
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    align-self: stretch;
+}
+
+.buyer-profile-picture-container{
+    display: flex;
+    width: 182px;
+    height: 162px;
+    padding: 0px 12.076px 0px 12.938px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.buyer-profile-picture{
+    width: 156.986px;
+    height: 162px;
+    flex-shrink: 0;
+    border-radius: 162px;
+}
+
+.buyer-add-profile{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+
+.buyer-add-profile-details{
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.upload-image-button{
+    display: flex;
+    padding: 8px 24px;
+    align-items: flex-start;
+    gap: 14px;border-radius: 5px;
+    border: 1px solid var(--button-blue-2, #3B8BF1);
+}
+
+.upload-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.upload-button-details{
+    color: var(--button-blue-2, #3B8BF1);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.buyer-profile-details-rightside{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: end;
+}
+
+.crypto-wallet{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.usd-balance{
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    flex-direction: row;
+}
+
+.amount{
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+
+.wallet-button{
+    display: flex;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    align-self: stretch;border-radius: 5px;
+    border: 1px solid var(--button-blue-2, #3B8BF1);
+}
+
+.wallet-icon{
+    width: 24px;
+    height: 24px;
+}
+
+.wallet-button-details{
+    color: var(--button-blue-2, #3B8BF1);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.buyer-contact-detail-container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
+.buyer-contact-number-container{
+    display: flex;
+    width: 1355px;
+    padding: 14px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyer-contact-number-details-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 31px;
+}
+
+.buyer-contact-number-detail{
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.buyer-contact-number{
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.buyer-location-container{
+    display: flex;
+    width: 1355px;
+    padding: 14px 16px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buyer-location-details-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 31px;
+}
+
+.location-container{
+    display: flex;
+    align-items: flex-start;
+    gap: 84px;
+}
+
+.buyer-location-detail{
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.buyer-location{
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.buyer-interest-container{
+    display: flex;
+    width: 1355px;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 31px;
+}
+
+.buyer-interest-details-container{
+    display: flex;
+    align-items: center;
+    gap: 31px;
+    flex: 1 0 0;
+}
+
+.buyer-interest-detail-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 48px;
+    flex: 1 0 0;
+}
+
+.buyer-interest-detail{
+    color: var(--text-colour-default, #000);
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.interest-container{
+    display: flex;
+    height: 100px;
+    padding: 25px 429px 54px 35px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 7px;
+    border: 1px solid var(--background-colour-dark, #ECECEC);  
+}
+
+.buyer-interest{
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.save-button{
+    display: flex;
+    padding: 12px 24px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 6px;
+    background: var(--primary-colour-default, #9F00D9);
+}
+
+.save-button-content{
+    color: var(--background-colour-light, #FFF);
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}

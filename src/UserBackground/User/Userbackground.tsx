@@ -3,7 +3,7 @@ import React from 'react';
 import './UserBackground.css';
 import { PiCaretUpDownFill } from 'react-icons/pi';
 import SideBar from '../SideBar/SideBar';
-import Header from '../Header/Header';
+// import Header from '../Header/Header';
 import Posts from '../../Seller/SellerPostViewProcess/Posts';
 import PostStepTwo from '../../Seller/SellerPostViewProcess/postStepTwo';
 import SellerFolowers from '../../Seller/SellerFollowers/SellerFolowers';
@@ -21,6 +21,7 @@ import SellerPostInDetail from '../../Seller/SellerPostInDetail/SellerPostInDeta
 import EditPostStatus from '../../Seller/SellerPostEdit/EditPostStatus';
 import AddPostTwo from '../../Seller/SellerPostAdd/AddPostTwo';
 import AddpostSuccess from '../../Seller/SellerPostAdd/AddPostSuccess';
+import BuyerProfile from '../../Buyer/BuyerProfile/BuyerProfile';
 
 
 const UserBackground = () => {
@@ -30,13 +31,13 @@ const UserBackground = () => {
 
   return (
     <div className="page-container">
-      <Header userType={userType} username={username} />
+      {/* <Header userType={userType} username={username} /> */}
       <div className="content-container">
         <SideBar />
         <div className="page-content">
           <div className="rounded-corner-space">
 
-            <Inbox/>
+            <BuyerProfile/>
 
 
           </div>
