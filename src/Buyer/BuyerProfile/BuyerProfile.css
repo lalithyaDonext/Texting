@@ -290,16 +290,22 @@
     align-items: center;
     flex: 1 0 0;
     border-radius: 7px;
-    border: 1px solid var(--background-colour-dark, #ECECEC);  
+    border: 1px solid var(--background-colour-dark, #ECECEC); 
+    outline: none; 
   }
-  
-  .buyer-interest {
+
+  .interest-container::placeholder{
     color: #000;
-    font-family: 'Poppins', sans-serif;
+    font-family: Poppins;
     font-size: 14px;
+    font-style: normal;
     font-weight: 400;
     line-height: 150%;
   }
+
+  .interest-container::-webkit-scrollbar {
+    width: 0px;
+}
   
   .save-button {
     display: flex;
