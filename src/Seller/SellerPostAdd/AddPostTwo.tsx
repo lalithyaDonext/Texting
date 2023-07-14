@@ -1,15 +1,13 @@
 import React, { useState } from "react";
-import { ArrowLeft, ChevronRight } from "react-iconly";
-import { Send, CloseSquare, Upload } from "react-iconly";
+import { ArrowLeft, Send, CloseSquare, Upload } from "react-iconly";
 import postImage from "../../images/DashbordSeller/the-dk-photography-NUoPWImmjCU-unsplash 1.png";
 import { IoIosArrowDown } from "react-icons/io";
-import { BsUpload, BsCameraVideo, BsCardImage } from "react-icons/bs";
+import { BsCameraVideo, BsCardImage } from "react-icons/bs";
 import SelectInput from "../../Inputs/SelectInput";
 import InputSellerTextField from "../../Inputs/inputSellerTextField";
 import SellerproductInput from "../../Inputs/sellerproductInput";
 import SmallDropdown from "../../Inputs/SmallDropdown";
 import SmallInput from "../../Inputs/smallInput";
-
 import "./addPostTwo.css";
 
 const AddPostTwo = () => {
@@ -93,7 +91,7 @@ const AddPostTwo = () => {
                 </div>
               </div>
               <div className="input-set-two">
-                <div style={{display:'flex',flexDirection:'column'}}>
+                <div style={{ display: "flex", flexDirection: "column" }}>
                   <div className="label-one">
                     3.
                     <span> </span>
@@ -117,20 +115,26 @@ const AddPostTwo = () => {
                 </div>
               </div>
               <div className="input-set-four">
-                <div style={{display:'flex',flexDirection:'column'}}>
+                <div style={{ display: "flex", flexDirection: "column" }}>
                   <div className="label-one">
                     5.
                     <span> </span>
                     Enter Selling Price*
                   </div>
-                  <div style={{display:'flex',flexDirection:'row', gap:'25px'}}>
-                  <div className="Seller-post-input">
-                    <SmallDropdown />
-                  </div>
-                
-                  <div className="Seller-post-input-one">
-                    <SmallInput placeholder="180.00" />
-                  </div>
+                  <div
+                    style={{
+                      display: "flex",
+                      flexDirection: "row",
+                      gap: "25px",
+                    }}
+                  >
+                    <div className="Seller-post-input">
+                      <SmallDropdown />
+                    </div>
+
+                    <div className="Seller-post-input-one">
+                      <SmallInput placeholder="180.00" />
+                    </div>
                   </div>
                 </div>
                 <div className="seller-offr-input">
@@ -154,8 +158,6 @@ const AddPostTwo = () => {
         </button>
       </div>
     </div>
-
-    
   );
 };
 
