@@ -15,7 +15,6 @@ const SellerFollowers = () => {
     {
       profileImg: Image1,
       followerName: 'John Doe',
-    //   messageCount: 7,
     },
     {
       profileImg: Image2,
@@ -60,7 +59,6 @@ const SellerFollowers = () => {
           <ArrowLeft size={32} stroke='light' />
         </div>
         <div className='seller-follower-title-content   '>
-
           Followers
         </div>
     </div>

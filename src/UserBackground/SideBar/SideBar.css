@@ -29,7 +29,6 @@
 .navigation-item {
   display: flex;
   flex-direction: row;
-  /* justify-content: space-between; */
   align-items: center;
   text-align: left;
   
@@ -40,7 +39,6 @@
   padding-bottom: 24px;
 
   color: var(--text-colour-default, #000);
-/* Tabs/Not Selected */
 font-family: Poppins;
 font-size: 14px;
 font-style: normal;

@@ -1,6 +1,6 @@
-import React from 'react';
-import { BsClipboard2Plus } from 'react-icons/bs';
-import { PaperPlus} from 'react-iconly'
+import React from "react";
+import { BsClipboard2Plus } from "react-icons/bs";
+import { PaperPlus } from "react-iconly";
 
 const PostProductInput = ({ placeholder }: any) => {
   return (
@@ -10,7 +10,7 @@ const PostProductInput = ({ placeholder }: any) => {
         placeholder={placeholder}
       />
       <div className="absolute top-0 left-0 flex items-center h-full pl-2 text-gray-500">
-        <PaperPlus size={20} style={{color:'#130F26'}}/>
+        <PaperPlus size={20} style={{ color: "#130F26" }} />
       </div>
     </div>
   );
