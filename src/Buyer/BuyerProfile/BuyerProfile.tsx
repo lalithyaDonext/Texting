@@ -155,11 +155,11 @@ const BuyerProfile = () => {
                 </div>
                 <div className='buyer-interest-detail-wrapper'>
                   <div className='buyer-interest-detail'>Interests</div>
-                  <div className='interest-container'>
-                    <div className='buyer-interest'>
-                      Mens wear, shoes, watches, clothing, Adventure kits
-                    </div>
-                  </div>
+                  <textarea className='interest-container' placeholder='Mens wear, shoes, watches, clothing, Adventure kits'>
+                    {/* <div className='buyer-interest'>
+                      
+                    </div> */}
+                  </textarea>
                 </div>
               </div>
               <div className='edit-icon'>

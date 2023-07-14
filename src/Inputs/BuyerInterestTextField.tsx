@@ -1,15 +1,15 @@
-import React from 'react'
-import './BuyerInterestTextField.css'
+// import React from 'react'
+// import './BuyerInterestTextField.css'
 
-const BuyerInterestTextField = ({placeholder}:any) => {
-  return (
-    <div>
-        <textarea
-            className='interest'
-            placeholder={placeholder}
-        />
-    </div>
-  )
-}
+// const BuyerInterestTextField = ({placeholder}:any) => {
+//   return (
+//     <div>
+//         <textarea
+//             className='interest'
+//             placeholder={placeholder}
+//         />
+//     </div>
+//   )
+// }
 
-export default BuyerInterestTextField
+// export default BuyerInterestTextField
