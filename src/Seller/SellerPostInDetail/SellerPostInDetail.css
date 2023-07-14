@@ -25,7 +25,6 @@
     flex-direction: column;
     gap: 16px;
     padding:0 32px 32px 32px;
-    /* width: 614px; */
     border-radius: 10px;
     background: var(--card-gradient, linear-gradient(145deg, #FFF 0%, #FCF5FF 54.29%, #F0CCFD 100%));
   }
@@ -111,8 +110,6 @@
     padding: '8px';
     border-radius: 6px;
     background: var(--primary-colour-light, #F3D8FD);
-
-/* button shadow */
     box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.07);
 
     color: var(--primary-colour-dark, #4A037D);
@@ -123,7 +120,6 @@
   .seller-post-detail-container-left-product-availabletime-span{
     color: var(--primary-colour-dark, #4A037D);
     text-align: center;
-    /* Texts/P3/Regular */
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
@@ -144,8 +140,6 @@
     flex: 1 0 0;
     color: var(--text-colour-default, #000);
     text-align: justify;
-
-    /* Texts/P3/Regular */
     font-family: Poppins;
     font-size: 14px;
     font-style: normal;
@@ -225,8 +219,6 @@
 
 .seller-post-detail-container-right-chat-container-header p{
     color: var(--primary-colour-dark, #4A037D);
-
-    /* Texts/P1/Medium */
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -255,7 +247,6 @@
     display: flex;
     align-items: center;
     gap: 10px;
-    /* Texts/H4/Semi-bold */
     font-family: Poppins;
     font-size: 18px;
     font-style: normal;
@@ -265,8 +256,6 @@
 
 .seller-post-detail-container-right-chat-msg{
     color: var(--text-colour-default, #000);
-
-/* Texts/P2/Regular */
 font-family: Poppins;
 font-size: 16px;
 font-style: normal;
@@ -277,8 +266,6 @@ line-height: 150%;
 
 .seller-post-detail-container-right-chat-time{
     color: var(--text-colour-default, #000);
-
-/* Texts/P5/Regular */
 font-family: Poppins;
 font-size: 10px;
 font-style: normal;
