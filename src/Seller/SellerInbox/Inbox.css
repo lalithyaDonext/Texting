@@ -1,0 +1,85 @@
+.inbox-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 32px 60px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  
+  .inbox-container-wrapper {
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  
+  .inbox-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 16px 46px;
+    width: 584px;
+    height: 716px;
+    border-radius: 6px;
+    background: var(--background-colour-default, linear-gradient(180deg, #FFF 0%, #FDF8FF 100%));
+    box-shadow: 0px 2px 32px 0px rgba(0, 0, 0, 0.04);
+  }
+  
+  .input-left-header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    align-self: stretch;
+  }
+  
+  .inbox-title {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 150%;
+  }
+  
+  .inbox-buttons {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  
+  .archived-button,
+  .sms-button {
+    display: flex;
+    padding: 8px;
+    align-items: flex-start;
+    gap: 14px;
+    border-radius: 5px;
+    border: 1px solid var(--primary-colour-dark, #4A037D);
+  }
+  
+  .inbox-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 27px 29px 14px 29px;
+    flex: 1 0 0;
+    align-self: stretch;
+    border-radius: 5px;
+    background: var(--bg-grey, #F9F9F9);
+  }
+  
+  .inbox-right-detail {
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+  }
+  

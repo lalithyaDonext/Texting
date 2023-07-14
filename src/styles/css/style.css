@@ -1,0 +1,63 @@
+/*=======================================================================
+ Typography
+=========================================================================*/
+.text-primary{
+    color: #4A037D !important;
+}
+
+.text-Black{
+    color: black;
+}
+/*=======================================================================
+ Button
+=========================================================================*/
+.btn-primary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    gap: 8px;
+    background: #9F00D9 !important;
+    border-color: #9F00D9 !important;
+    border-radius: 6px !important;
+    transition: all 0.2s ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    color: white;
+}
+.btn-primary:hover{
+    background: #7f00ae !important;
+    border-color: #7f00ae !important;
+}
+.btn-primary:active{
+    background: #9F00D9  !important;
+    border-color: #9F00D9 !important;
+}
+
+.btn-sign-up{
+    width: 479px;
+    height: 54px;
+}
+
+.btn-verify-btn{
+    width: 221px;
+    height: 48px;
+
+}
+
+.btn-sign-up-done-btn{
+    width: 91px;
+    height: 48px;
+
+}
+
+@media only screen and (max-width: 576px){
+    .btn-sign-in{
+        width: 100%;
+    }
+}
+

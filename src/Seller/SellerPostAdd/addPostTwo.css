@@ -1,0 +1,208 @@
+.seller-post-container {
+  padding: 30px 45px 0 35px;
+  align-items: center;
+  font-family: Poppins;
+}
+
+.seller-post-title {
+  display: flex;
+  align-items: center;
+}
+
+.seller-post-back-nav {
+  padding-left: 45px;
+}
+
+.seller-post-title-content {
+  margin-left: 20px;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+}
+
+.seller-post-main-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.post-main-card {
+  background: var(
+    --card-gradient-2,
+    linear-gradient(177deg, #fff 0%, #fcf5ff 54.29%, #f0ccfd 100%)
+  );
+  max-height: 650px;
+  border-radius: 10px;
+  padding: 12px 24px 24px 24px;
+  margin: 20px 20px 0 16px;
+  bottom: 100px;
+}
+
+.post-main-card-content {
+  background-color: white;
+  max-height: 600px;
+  border-radius: 6px;
+  margin: 10px 40px;
+  overflow-y: auto;
+}
+
+/* For Webkit-based browsers (Chrome, Safari) */
+.post-main-card ::-webkit-scrollbar {
+  width: 0px; /* Width of the scrollbar */
+}
+
+.post-main-card::-webkit-scrollbar-track {
+  background-color: #f1f1f1; /* Color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners for the scrollbar track */
+}
+
+.post-main-card::-webkit-scrollbar-thumb {
+  background-color: #888; /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.image-view-post {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  padding: 20px 0 0 20px;
+}
+
+.upload-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9f00d9;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 227px;
+  height: 48px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.dropdown {
+  position: relative;
+  margin-left: 10px;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.dropdown-ui {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+  width: 227px;
+}
+
+.dropdown.open .dropdown-ui {
+  display: block;
+}
+
+.dropdown-li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dropdown-ui .dropdown-li {
+  padding: 10px;
+  color: #333;
+}
+
+.dropdown-ui .dropdown-li:hover {
+  background-color: #f2f2f2;
+}
+
+.Input-set-seller-post {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.input-set-one {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.label-one {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.Seller-post-input {
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+.input-set-two {
+  margin-top: 40px;
+}
+
+.input-set-three {
+  margin-top: 40px;
+}
+
+.input-set-four {
+  display: flex;
+  flex-direction: row;
+  margin-top: 40px;
+  gap: 138px;
+}
+
+.Seller-post-input-one {
+  margin-left: -10px;
+  margin-top: 10px;
+}
+
+.seller-post-next-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.next-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9f00d9;
+  color: white;
+  padding: 12px 24px;
+  width: 185px;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  gap: 10px;
+}
+
+.next-button:hover {
+  opacity: 0.8;
+}

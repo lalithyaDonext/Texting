@@ -1,0 +1,21 @@
+.RegisterButtonLarge{
+    width: 479px;
+    height: 48px;
+    display: flex;
+    padding: 12px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    border-radius: 6px;
+    background: var(--primary-colour-default, #9F00D9);
+    color: var(--background-colour-light, #FFF);
+    text-align: center;
+
+    /* Texts/P2/Semi Bold */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}

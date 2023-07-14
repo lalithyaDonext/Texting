@@ -1,0 +1,57 @@
+
+.slick-slider{
+    width: 645px !important;
+    height: 658px !important;
+}
+
+
+.button__bar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 10px;
+    position: absolute;
+    top: 620px;
+    right: 350px;
+}
+
+.button__bar li {
+    list-style: none;
+    cursor: pointer;
+    display: inline-block;
+    margin: 0 3px;
+    padding: 0;
+}
+
+.button__bar li button {
+    border: none;
+    background: transparent;
+    border: 1px solid #E6FCFF;
+    box-sizing: border-box;
+    width: 19px;
+    height: 19px;
+    color: transparent;
+    cursor: pointer;
+    display: block;
+    border-radius: 10px;
+}
+
+.button__bar li.slick-active button {
+    background: #F3D8FD;
+}
+
+.button__bar li button:hover,
+.button__bar li button:focus {
+    background: #F3D8FD;
+    outline: 0;
+}
+@media only screen and (max-width: 1400px) {
+
+    .button__bar {
+        top: 540px;
+        right: 330px;
+    }
+}
+
+

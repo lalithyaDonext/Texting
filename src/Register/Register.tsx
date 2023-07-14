@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './register.css'
 import RegFormInputsShort from "../Inputs/regFormInputsShort";
 import OtpInputs from "../Inputs/otpInputs";
 import RegFormInputs from "../Inputs/regFormInputs";
@@ -9,6 +10,9 @@ import Facebook from "../images/Register/Facebook.png";
 import FormTextField from "../Inputs/formTextFiels";
 import DropDownZone from "../Inputs/dropDownZone";
 import PopupMessage from "../PopUpModals/popUpMessage";
+import { BsArrowLeft} from "react-icons/bs";
+import { ArrowLeft } from 'react-iconly'
+import RegisterButtonLarge from "../Buttons/RegisterButtonLarge";
 
 const Register = () => {
   const [currentStep, setCurrentStep] = useState(1);
@@ -23,18 +27,21 @@ const Register = () => {
     setCurrentStep(currentStep + 1);
   };
   return (
-    <div className="mt-[25px] ">
-      <div className="  z-10">
+    
+      
         <div>
+          <div className="back-arrow">
+          <ArrowLeft size={32} stroke='light'/>
+          </div>
           
           {/* Progress Bar */}
-          <div className="flex justify-between items-center ml-[300px] w-[330px]">
+          <div className="reg-progress-bar">
             {Array.from(Array(totalSteps), (_, index) => (
               <div className="flex items-center ">
 
                 <div
                   key={index}
-                  className={`w-[44px] h-[44px] flex justify-center items-center rounded-full border-2 ${
+                  className={`w-[44px] h-[44px] flex justify-center items-center rounded-full border-[1px] ${
                     index < currentStep
                       ? "border-[#4A037D] boarde-500 bg-[#F3D8FD] border-500"
                       : "border-[#D9D9D9] border-300 bg-[#FFFFFF]"
@@ -65,42 +72,45 @@ const Register = () => {
           {currentStep === 1 && (
             <div>
               {/* Form fields for step 1 */}
+              <div className="text-signup-title">
 
-              <div className="h-[45px] mt-[10px] ml-[515px]  font-Montserrat font-semibold leadding-[44px] font-[20px] text-[25px] ">
+              <div className="Signup-titel">
                 Register as
               </div>
 
-              <div className="ml-[520px] mt-4  w-[119px]  h-[40px] rounded-full bg-gray-200 flex items-center justify-start text-[16px] font-[400]">
-                <div className="w-[24px] h-[24px] rounded-full bg-[#4A037D] mx-2 mr-[15px]"></div>
-                Seller
+              <div className="toggle-icon-signup-container">
+                <div className="toggle-icon-signup-tumb"></div>
+                <div className="toggle-icon-signup-content">Seller</div>
+              </div>
               </div>
 
-              <div className="flex flex-col mt-[40px] ml-[121px]">
+              <div className="SignUp-Wrapper">
 
-                <div className="ml-[150px] font-poppins text-[18px] leading-[24px] font-semibold">
+                <div className="SignUp-Title">
                   Signup via social Media
                 </div>
 
-                <div className="flex flex-row ml-[80px] gap-12 mt-8">
-                  <div className="flex flex-row justify-center items-center w-[76px] h-[76px] rounded-full border-[2px] border-[#F3D8FD] ">
+                <div className="Social-Media-Icon-Wrapper">
+                <div className="custom-circle ">
                     <img
-                      className="w-[44px] h-[44px]"
-                      src={Facebook}
-                      alt-="insta"
-                    />
-                  </div>
-
-                  <div className="flex flex-row justify-center items-center w-[76px] h-[76px] rounded-full border-[2px] border-[#F3D8FD] ">
-                    <img
-                      className="w-[44px] h-[44px]"
+                      className="custom-image"
                       src={Google}
                       alt-="insta"
                     />
                   </div>
 
-                  <div className="flex flex-row justify-center items-center w-[76px] h-[76px] rounded-full border-[2px] border-[#F3D8FD] ">
+
+                  <div className="custom-circle ">
                     <img
-                      className="w-[44px] h-[44px]"
+                      className="custom-image"
+                      src={Google}
+                      alt-="insta"
+                    />
+                  </div>
+
+                  <div className="custom-circle">
+                    <img
+                      className="custom-image "
                       src={Insta}
                       alt-="insta"
                     />
@@ -108,31 +118,28 @@ const Register = () => {
 
                 </div>
 
-                <div className=" ml-[235px] mt-[30px] text-[#000000] text-opacity-[50%] text-[16px] leading-[24px] font-semibold">
+                <div className=" ml-[235px] mt-[20px] text-[#000000] text-opacity-[50%] text-[16px] leading-[24px] font-semibold">
                   Or
                 </div>
 
-                <div className="box-border flex flex-row  p-[14px 75px 14px 20px] gap-[10px]  mt-[20px]   ">
+                <div className="font-Poppin box-border flex flex-row  p-[14px 75px 14px 20px] gap-[10px]  mt-[15px]   ">
                   <FormInputs placeholder="Enter Your Email" />
                 </div>
 
-                <div className="box-border flex flex-row  p-[14px 75px 14px 20px] gap-[10px]  mt-[80px]  ">
-                  <button
-                    className="absolute w-[488px] h-[48px]  border-[1px] border-solid border-[#9F00D9] rounded-[10px] hover: border-[1px] border-solid border-[#9F00D9] rounded-[10px] bg-[#9F00D9] text-white font-semibold font-Montserrat  leading-[22px]"
-                    onClick={handleNextStep}
-                  >
-                    Continue with Email
-                  </button>
+                <div className="font-Poppin box-border flex flex-row  p-[14px 75px 14px 20px] gap-[10px]  mt-[80px]  ">
+                 <RegisterButtonLarge
+                 ButtonName='Continue with Email'
+                 />
                 </div>
 
-                <div className=" ml-[180px] mt-[70px] text-[#000000] text-opacity-[50%] text-[16px] leading-[24px] font-semibold">
+                <div className="font-Poppin ml-[180px] mt-[70px] text-[#000000] text-opacity-[50%] text-[16px] leading-[24px] font-semibold">
                   External Wallet
                 </div>
 
-                <div className="box-border flex flex-row  p-[14px 75px 14px 20px] gap-[10px]  mt-[20px]   ">
-                  <button className="absolute w-[488px] h-[48px]  border-[1px] border-solid border-[#9F00D9] rounded-[10px] hover: border-[1px] border-solid border-[#9F00D9] rounded-[10px] bg-[#9F00D9] text-white font-semibold font-Montserrat  leading-[22px]">
-                    Continue with Wallet
-                  </button>
+                <div className="font-Poppin box-border flex flex-row  p-[14px 75px 14px 20px] gap-[10px]  mt-[20px]   ">
+                  <RegisterButtonLarge
+                  ButtonName='Continue with Wallet'
+                  />
                 </div>
 
               </div>
@@ -142,7 +149,7 @@ const Register = () => {
             <div>
               {/* Form fields for step 2 */}
 
-              <div className="h-[45px] mt-[28px] ml-[340px]  font-Montserrat font-semibold leadding-[44px] font-[25px] text-[25px] ">
+              <div className="h-[45px] ml-[340px]  font-Montserrat font-semibold leadding-[44px] font-[25px] text-[25px] ">
                 Verify Your Phone Number{" "}
               </div>
 
@@ -192,19 +199,19 @@ const Register = () => {
             </div>
           )}
           {currentStep === 3 && (
-            <div>
+            <div className="font-Poppin">
               {/* Form fields for step 3 */}
 
-              <div className="h-[45px] mt-[20px] ml-[520px]  font-Montserrat font-semibold leadding-[44px]  text-[25px] ">
+              <div className="h-[45px] mt-[20px] ml-[520px]  font-Montserrat font-semibold leadding-[24px]  text-[20px] ">
                 Register as
               </div>
 
-              <div className="ml-[520px] mt-4  w-[119px]  h-[40px] rounded-full bg-gray-200 flex items-center justify-start text-[16px] font-[400]">
+              <div className="ml-[520px] mt-4  w-[119px]  h-[40px] rounded-full bg-[#ffffff] flex items-center justify-start text-[16px] font-[400]">
                 <div className="w-[24px] h-[24px] rounded-full bg-[#4A037D] mx-2 mr-[15px]"></div>
                 Seller
               </div>
 
-              <div className="h-[45px] mt-[20px] ml-[85px]  font-Montserrat font-semibold leadding-[44px] text-[18px] ">
+              <div className="h-[45px] mt-[20px] ml-[125px]  font-Montserrat font-semibold leadding-[24px] text-[16px] ">
                 You Continued with your email address Info.John@gmail.com
               </div>
 
@@ -256,27 +263,32 @@ const Register = () => {
             <div>
               {/* Form fields for step 4 */}
 
-              <div className="h-[45px] mt-[28px] ml-[500px]  font-Montserrat font-semibold leadding-[44px]  text-[25px] ">
+              <div className="h-[45px] mt-[30px] ml-[530px]  font-Montserrat font-semibold leadding-[24px]  text-[20px] ">
                 Register as
               </div>
 
-              <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] mt-[50px]   ml-[50px]  ">
+              <div className="ml-[520px] mt-[10px] w-[119px]  h-[40px] rounded-full bg-[#ffffff] flex items-center justify-start text-[16px] font-[400]">
+                <div className="w-[24px] h-[24px] rounded-full bg-[#4A037D] mx-2 mr-[15px]"></div>
+                Seller
+              </div>
+
+              <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] mt-[40px]   ml-[50px]  ">
                 <RegFormInputs placeholder="Enter Your Store Name" />
               </div>
 
-              <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] mt-[50px]   ml-[50px]  ">
+              <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] mt-[60px]   ml-[50px]  ">
                 <RegFormInputs placeholder="Select Main Category" />
               </div>
 
-              <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] mt-[50px]   ml-[50px]  ">
+              <div className="box-border flex flex-row items-center p-[14px 75px 14px 20px] gap-[10px] mt-[60px]   ml-[50px]  ">
                 <RegFormInputs placeholder="Select Sub Category/Categories" />
               </div>
 
-              <div className="box-border flex flex-row   gap-[10px] mt-[50px] p-[14px 75px 14px 20px] mt-[50px]  ml-[50px]  ">
+              <div className="box-border flex flex-row   gap-[10px] mt-[50px] p-[14px 75px 14px 20px] mt-[60px]  ml-[50px]  ">
                 <FormTextField placeholder="Store Description" />
               </div>
 
-              <div className="box-border flex flex-row   gap-[10px] mt-[50px] p-[14px 75px 14px 20px] mt-[113px]  ml-[50px]  ">
+              <div className="box-border flex flex-row   gap-[10px] mt-[50px] p-[14px 75px 14px 20px] mt-[125px]  ml-[50px]  ">
                 <DropDownZone
                 //  placeholder="Address Line 2"
                 />
@@ -298,8 +310,8 @@ const Register = () => {
           )}
 
         </div>
-      </div>
-    </div>
+      
+    
   );
 };
 

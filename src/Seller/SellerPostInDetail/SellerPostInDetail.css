@@ -1,0 +1,269 @@
+.seller-post-detail-main-wrapper {
+  margin: 16px 70px;
+}
+
+.seller-post-detail-Back-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 16px;
+  height: auto 24px;
+}
+
+.seller-post-detail-container {
+  display: flex;
+  gap: 24px;
+  padding: 24px 32px;
+  width: 1243px;
+  height: 700px;
+}
+
+.seller-post-detail-container-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 32px 32px 32px;
+  width: 714px;
+  border-radius: 10px;
+  background: var(
+    --card-gradient,
+    linear-gradient(145deg, #fff 0%, #fcf5ff 54.29%, #f0ccfd 100%)
+  );
+}
+
+.seller-post-detail-container-left-Header {
+  display: flex;
+  flex-direction: row;
+  padding: 8px;
+  width: 662px;
+  height: 56px;
+}
+
+.seller-post-detail-container-left-Header-img-view {
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+  align-items: center;
+  background-color: blue;
+  width: 400px;
+}
+
+.seller-post-detail-container-left-Header-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-left-Header-img-btn {
+  border-radius: 5px;
+  border: 1px solid var(--primary-colour-dark, #4a037d);
+  display: flex;
+  padding: 8px 24px;
+  align-items: flex-start;
+  gap: 14px;
+}
+
+.seller-post-detail-container-left-Header-img-btn-span {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-left-Image-container {
+  width: 100%;
+  height: 311px;
+  display: flex;
+  padding-top: 7.5px;
+  padding-bottom: 7.5px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+}
+
+.seller-post-detail-container-left-product-name {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-left-product-availabletime {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: "21px";
+  width: "170px";
+  height: "40px";
+  padding: "8px";
+  border-radius: 6px;
+  background: var(--primary-colour-light, #f3d8fd);
+  box-shadow: 0px 3px 35px 0px rgba(0, 0, 0, 0.07);
+  color: var(--primary-colour-dark, #4a037d);
+}
+
+.seller-post-detail-container-left-product-availabletime-span {
+  color: var(--primary-colour-dark, #4a037d);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-left-product-description {
+  display: flex;
+  padding: 18px 10px;
+  width: 646px;
+}
+
+.seller-post-detail-container-left-product-description p {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 0;
+  color: var(--text-colour-default, #000);
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.5;
+}
+
+.seller-post-detail-container-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 541px;
+  padding: 32px;
+  gap: 32px;
+  border-radius: 10px;
+  background: var(--bg-grey, #f9f9f9);
+}
+
+.seller-post-detail-container-right-Header-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-right-Header-price {
+  color: var(--primary-colour-dark, #4a037d);
+  font-family: Poppins;
+  font-size: 31px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-right-post-operators {
+  display: flex;
+  width: 377px;
+  align-items: center;
+  gap: 32px;
+}
+
+.seller-post-detail-container-right-post-fav {
+  width: 37px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.seller-post-detail-container-right-chat-container {
+  display: flex;
+  padding: 0px 12px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  border-radius: 10px;
+  background: #fff;
+}
+
+.seller-post-detail-container-right-chat-container-header {
+  display: flex;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+}
+
+.seller-post-detail-container-right-chat-container-header p {
+  color: var(--primary-colour-dark, #4a037d);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-right-chat {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-bottom: 1px solid var(--text-colour-disabled, #cbcbcb);
+}
+
+.seller-post-detail-container-right-chat-content-container {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.seller-post-detail-container-right-chat-username {
+  color: #000;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-right-chat-msg {
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+
+.seller-post-detail-container-right-chat-time {
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.5;
+}

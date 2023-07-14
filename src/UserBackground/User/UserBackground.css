@@ -22,7 +22,7 @@
   border-radius: 20px;
   right: 30px;
   left: 273px;
-  top: 120px;
+  top: 50px;
   bottom: 30px; /* Adjusted to remove white space at the bottom */
   overflow-y: auto;
 }

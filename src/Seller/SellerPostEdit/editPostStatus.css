@@ -1,0 +1,335 @@
+.seller-post-container {
+  padding-top: 30px;
+  align-items: center;
+  font-family: Poppins;
+}
+
+.seller-post-title {
+  display: flex;
+  align-items: center;
+}
+
+.seller-post-back-nav {
+  padding-left: 45px;
+}
+
+.seller-post-title-content {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-left: 20px;
+}
+
+.seller-post-main-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.post-main-card {
+  background: var(
+    --card-gradient-2,
+    linear-gradient(177deg, #fff 0%, #fcf5ff 54.29%, #f0ccfd 100%)
+  );
+  width: 100%;
+  border-radius: 10px;
+  padding: 12px 62px 30px 40px;
+  margin-top: 20px;
+  margin-left: 16px;
+  margin-right: 20px;
+}
+
+.post-main-card-two {
+  width: 1300px;
+  height: 700px;
+  border-radius: 10px;
+  margin-top: 0px;
+}
+
+.post-main-card-title {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  text-align: left;
+}
+
+.post-main-card-image-upload-container {
+  display: flex;
+  flex-direction: row;
+  gap: 90px;
+  margin-left: 10px;
+}
+
+.image-upload-large-card {
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  border-radius: 6px;
+  text-align: center;
+  justify-content: center;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 25.41px;
+}
+
+.image-upload-small-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.image-upload-small-card-view {
+  width: 145px;
+  height: 100px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.image-upload-small-card p {
+  font-family: Inter;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
+}
+
+.image-upload-small-card-view p {
+  font-family: Poppins;
+  font-size: 8px;
+  font-weight: 400;
+  line-height: 10px;
+  text-align: center;
+}
+
+.plus-icon {
+  color: #9f00d9;
+  margin-bottom: 10px;
+}
+
+.seller-post-next-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+.next-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9f00d9;
+  color: white;
+  padding: 12px 24px;
+  width: 117px;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  gap: 10px;
+}
+
+.next-button:hover {
+  opacity: 0.8;
+}
+
+.next-icon {
+  margin-left: 8px;
+}
+
+.post-main-card-content {
+  background-color: white;
+
+  height: 740px;
+  border-radius: 6px;
+  margin: 40px;
+}
+
+.image-view-post {
+  padding-top: 20px;
+  padding-left: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.upload-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+  background-color: #9f00d9;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 227px;
+  height: 48px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  justify-content: center;
+}
+
+.upload-icon {
+  margin-right: 10px;
+}
+
+.dropdown {
+  position: relative;
+  margin-left: 10px;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.dropdown-ui {
+  position: absolute;
+  top: calc(100% + 5px);
+  left: 0;
+  background-color: #fff;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: none;
+  width: 227px;
+}
+
+.dropdown.open .dropdown-ui {
+  display: block;
+}
+.dropdown-li-one {
+  color: #000;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
+.dropdown-li {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.dropdown-ui .dropdown-li {
+  padding: 10px;
+  color: #333;
+}
+
+.dropdown-ui .dropdown-li:hover {
+  background-color: #f2f2f2;
+}
+
+.Input-set-seller-post {
+  padding: 20px;
+  padding-top: 50px;
+}
+
+.input-set-one {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+.label-one {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.Seller-post-input {
+  padding-left: 15px;
+  margin-top: 8px;
+}
+.Seller-post-input-one {
+  margin-left: -10px;
+  margin-top: 32px;
+}
+
+.input-set-two {
+  margin-top: 40px;
+}
+
+.input-set-three {
+  margin-top: 40px;
+}
+
+.input-set-four {
+  display: flex;
+  flex-direction: row;
+
+  margin-top: 40px;
+}
+
+.seller-offr-input {
+  margin-left: 115px;
+}
+.seller-post-button {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 200px;
+}
+.post-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #9f00d9;
+  color: white;
+  width: 208px;
+  height: 48px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+}
+
+.post-button:hover {
+  opacity: 0.8;
+}
+
+.post-icon {
+  margin-left: 8px;
+}
+
+.live {
+  text-align: right;
+  padding-left: 675px;
+  margin-top: -30px;
+}
