@@ -11,11 +11,18 @@ import Notification from "../../Seller/SellerNotification/Notification";
 import SellerInbox from "../../Seller/SellerInbox/SellerInbox";
 import Inbox from "../../Seller/SellerInbox/Inbox";
 
-import SellerPostInDetail from "../../Seller/SellerPostInDetail/SellerPostInDetail";
 
-import EditPostStatus from "../../Seller/SellerPostEdit/EditPostStatus";
-import AddPostTwo from "../../Seller/SellerPostAdd/AddPostTwo";
-import AddpostSuccess from "../../Seller/SellerPostAdd/AddPostSuccess";
+
+import SellerPostInDetail from '../../Seller/SellerPostInDetail/SellerPostInDetail';
+
+
+
+
+import EditPostStatus from '../../Seller/SellerPostEdit/EditPostStatus';
+import AddPostTwo from '../../Seller/SellerPostAdd/AddPostTwo';
+import AddpostSuccess from '../../Seller/SellerPostAdd/AddPostSuccess';
+import BuyerProfile from "../../Buyer/BuyerProfile/BuyerProfile";
+
 
 const UserBackground = () => {
   const userType = "seller"; // Change this value based on the user type
@@ -29,6 +36,9 @@ const UserBackground = () => {
         <div className="page-content">
           <div className="rounded-corner-space">
             <SellerFolowers />
+
+
+
           </div>
         </div>
       </div>

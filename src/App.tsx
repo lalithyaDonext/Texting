@@ -9,7 +9,7 @@ import UserBackground from "./UserBackground/User/Userbackground";
 import RegiterViewBackground from "./RegiterBackground/RegiterViewBackground";
 // import RegisterBackground from "./RegisterDesigns/RegisterBackground/RegisterBackground";
 import Auth from "./auth/Auth";
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
