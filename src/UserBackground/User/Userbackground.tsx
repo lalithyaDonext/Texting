@@ -21,6 +21,8 @@ import SellerPostInDetail from '../../Seller/SellerPostInDetail/SellerPostInDeta
 import EditPostStatus from '../../Seller/SellerPostEdit/EditPostStatus';
 import AddPostTwo from '../../Seller/SellerPostAdd/AddPostTwo';
 import AddpostSuccess from '../../Seller/SellerPostAdd/AddPostSuccess';
+import FollowingPostDetailed from '../../Buyer/BuyerFollowingPost/FollowingPostDetailed';
+import MyWalletConvert from '../../Buyer/BuyerMyWallet/MyWalletConvert';
 import BuyerProfile from "../../Buyer/BuyerProfile/BuyerProfile";
 
 

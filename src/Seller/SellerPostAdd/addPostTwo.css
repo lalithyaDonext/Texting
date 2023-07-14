@@ -1,8 +1,5 @@
 .seller-post-container {
-  padding-left: 35px;
-  padding-right: 45px;
-  padding-top: 30px;
-  padding-right: 30px;
+  padding: 30px 45px 0 35px;
   align-items: center;
   font-family: Poppins;
 }
@@ -17,67 +14,42 @@
 }
 
 .seller-post-title-content {
+  margin-left: 20px;
+  text-align: left;
   font-size: 24px;
   font-weight: 600;
   line-height: 36px;
   letter-spacing: 0em;
-  text-align: left;
-  margin-left: 20px;
 }
 
 .seller-post-main-card {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* margin-top: 5px; */
- /* padding-top: 400px; */
 }
 
 .post-main-card {
-  /* position: fixed; */
   background: var(
     --card-gradient-2,
     linear-gradient(177deg, #fff 0%, #fcf5ff 54.29%, #f0ccfd 100%)
   );
-
-  /* width: 100%; */
   max-height: 650px;
   border-radius: 10px;
   padding: 12px 24px 24px 24px;
-  /* margin-bottom: 10px; */
-  margin-top: 20px;
-  margin-left: 16px;
-  margin-right: 20px;
+  margin: 20px 20px 0 16px;
   bottom: 100px;
-  /* overflow-y: auto; */
-
-  /* box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px; */
-  /* Other styles for the card */
-  /* ... */
 }
-
-.post-main-card-title{
-    color: #000;
-    /* Texts/P2/Regular */
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-    text-align: left;
-  }
 
 .post-main-card-content {
   background-color: white;
-max-height:600px;
-  /* height: 740px; */
+  max-height: 600px;
   border-radius: 6px;
   margin: 10px 40px;
   overflow-y: auto;
 }
 
 /* For Webkit-based browsers (Chrome, Safari) */
-.post-main-card ::-webkit-scrollbar{
+.post-main-card ::-webkit-scrollbar {
   width: 0px; /* Width of the scrollbar */
 }
 
@@ -92,11 +64,10 @@ max-height:600px;
 }
 
 .image-view-post {
-  padding-top: 20px;
-  padding-left: 20px;
   display: flex;
   flex-direction: row;
   gap: 40px;
+  padding: 20px 0 0 20px;
 }
 
 .upload-details {
@@ -108,6 +79,7 @@ max-height:600px;
 .dropdown-button {
   display: flex;
   align-items: center;
+  justify-content: center;
   background-color: #9f00d9;
   color: #fff;
   padding: 10px;
@@ -120,16 +92,13 @@ max-height:600px;
   font-size: 16px;
   font-weight: 600;
   line-height: 24px;
-  justify-content: center;
-}
-.upload-icon {
-  margin-right: 10px;
 }
 
 .dropdown {
   position: relative;
   margin-left: 10px;
 }
+
 .arrow-icon {
   margin-left: 5px;
   cursor: pointer;
@@ -148,6 +117,7 @@ max-height:600px;
   display: none;
   width: 227px;
 }
+
 .dropdown.open .dropdown-ui {
   display: block;
 }
@@ -190,8 +160,6 @@ max-height:600px;
 
 .input-set-two {
   margin-top: 40px;
-  /* display: flex;
-  flex-direction: row; */
 }
 
 .input-set-three {
@@ -208,10 +176,6 @@ max-height:600px;
 .Seller-post-input-one {
   margin-left: -10px;
   margin-top: 10px;
-}
-
-.seller-offr-input {
-  /* margin-left: 390px; */
 }
 
 .seller-post-next-button {
@@ -242,4 +206,3 @@ max-height:600px;
 .next-button:hover {
   opacity: 0.8;
 }
-

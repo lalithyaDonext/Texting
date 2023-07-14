@@ -24,7 +24,6 @@ const EditPostStatus = () => {
           <ArrowLeft size={32} stroke="light" />
         </div>
         <div className="seller-post-title-content">
-          {/* Add New Post */}
           Edit - Shiny Navy Sneakers
         </div>
         <div className="live">
