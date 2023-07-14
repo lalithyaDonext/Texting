@@ -85,3 +85,49 @@ font-style: normal;
 font-weight: 600;
 line-height: 150%;
 `;
+
+export const SelectionTitleOne = styled.p`
+color: var(--text-colour-default, #000);
+opacity: 0.5;
+font-family: Poppins;
+font-size: 40px;
+font-style: normal;
+font-weight: 300;
+line-height: 150%; 
+`;
+
+export const SelectionTitleTwo = styled.p`
+color: #000;
+font-family: Poppins;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%;
+`;
+
+export const SelectionBTitleOne = styled.p`
+color: var(--text-colour-default, #000);
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
+`;
+
+export const SelectionBTitleTwo = styled.p`
+color: var(--primary-colour-dark, #4A037D);
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 150%;
+`;
+
+export const SelectionBTitleThree = styled.p`
+color: var(--primary-colour-dark, #4A037D);
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+`;

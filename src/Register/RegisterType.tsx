@@ -27,11 +27,10 @@ const RegisterType = () => {
 
   return (
     <div className="relative inline-block">
-      <div className="flex flex-col items-center">
-
+      <div className="flex flex-col items-left gap-[32px]">
         <button
-          className={`flex items-center gap-5 p-5 w-[338px] rounded-[12px] h-[68px] border border-[#4A037D] text-[18px] leading-[27px] p-[18px, 24px, 18px, 24px] hover:w-[345px] hover:bg-[#F3D8FD] hover:bg-opacity-[35%] transition-transform ${
-            isBuyerHovered ? "-translate-x-3" : ""
+          className={`flex items-center gap-[18px] p-5 w-[338px] rounded-[12px] h-[68px] border border-[#4A037D] text-[18px] leading-[27px] p-[18px, 24px, 18px, 24px] hover:flex hover:items-center hover:w-[355px] hover:bg-[#F3D8FD] hover:bg-opacity-[35%] transition-transform ${
+            isBuyerHovered && isSellerHovered ? "-translate-x-5" : ""
           }`}
           onMouseEnter={handleBuyerMouseEnter}
           onMouseLeave={handleBuyerMouseLeave}
@@ -43,8 +42,8 @@ const RegisterType = () => {
         </button>
 
         <button
-          className={`flex items-center gap-5 p-5 mt-3 w-[338px] rounded-[12px] h-[68px] border border-[#4A037D] text-[18px] leading-[27px] hover:w-[345px] hover:bg-[#F3D8FD] hover:bg-opacity-[35%] transition-transform ${
-            isSellerHovered ? "-translate-x-3" : ""
+          className={`flex items-center gap-5 p-5  w-[338px] rounded-[12px] h-[68px] border border-[#4A037D] text-[18px] leading-[27px] hover:flex hover:items-center hover:w-[355px] hover:bg-[#F3D8FD] hover:bg-opacity-[35%] transition-transform ${
+            isSellerHovered && isBuyerHovered ? "-translate-x-5" : ""
           }`}
           onMouseEnter={handleSellerMouseEnter}
           onMouseLeave={handleSellerMouseLeave}
@@ -56,7 +55,6 @@ const RegisterType = () => {
             )}
           </>
         </button>
-        
       </div>
     </div>
   );

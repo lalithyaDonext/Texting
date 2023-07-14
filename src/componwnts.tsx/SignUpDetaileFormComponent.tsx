@@ -74,7 +74,7 @@ const SignUpDetailFormComponent = () =>{
                                               placeholder="Postal Code"/>
                         </Row>
 
-                        <DropdownExample/>
+                        <DropdownExample placeholder="Country"/>
 {/* 
                         <Form.Select  className="signup-form-input">
                         <option>Open this select menu</option>
