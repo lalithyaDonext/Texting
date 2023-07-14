@@ -9,7 +9,7 @@ import {
 } from "react-icons/ai";
 import { FiSearch, FiLogOut } from "react-icons/fi";
 import searchIcon from "../../Icons/Outlined/Search.svg";
-import { Search,Logout ,Location} from 'react-iconly'
+import { Search, Logout, Location } from "react-iconly";
 
 const Header = ({ userType, username }: any) => {
   return (
@@ -19,10 +19,7 @@ const Header = ({ userType, username }: any) => {
           <>
             <div className="search-wrapper">
               <div className="search-bar">
-                {/* <svg className="Search-icon">
-                  <use xlinkHref={searchIcon} />
-                </svg> */}
-                <Search   />
+                <Search />
                 <div className="search-text">Search Orders</div>
               </div>
               <select className="dropdown-bar">
@@ -45,7 +42,7 @@ const Header = ({ userType, username }: any) => {
       </div>
       <div className="header-right">
         <div className="seller-Location">
-            <Location/>
+          <Location />
         </div>
         {userType === "seller" && (
           <div className="greeting">Hi, {username}!</div>
@@ -60,12 +57,10 @@ const Header = ({ userType, username }: any) => {
             </div>
           </>
         )}
-        <div>
-
-        </div>
+        <div></div>
         <div className="logout">
           <div className="logout-icon">
-          <Logout size={24}  />
+            <Logout size={24} />
           </div>
           Logout
         </div>

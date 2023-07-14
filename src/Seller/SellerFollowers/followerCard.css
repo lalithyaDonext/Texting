@@ -1,7 +1,6 @@
 .seller-followers-card{
     width: 541.5px;
     height: 116px;
-    /* background: linear-gradient(to top left, #F0CCFD, #FCF5FF, #FFFFFF); */
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     border-radius: 6px; 
     padding: 20px;
@@ -26,7 +25,6 @@
     width: 75px;
     height: 75px;
     border-radius: 100%;
-    /* background: #000; */
 }
 
 .follower-name{

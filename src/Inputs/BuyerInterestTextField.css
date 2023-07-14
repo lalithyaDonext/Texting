@@ -1,0 +1,9 @@
+.interest{
+    display: flex;
+    height: 100px;
+    padding: 25px 429px 54px 35px;
+    align-items: center;
+    flex: 1 0 0;
+    border-radius: 7px;
+    border: 1px solid var(--background-colour-dark, #ECECEC);  
+}
