@@ -12,7 +12,7 @@ const StyledFormSelect = styled(Form.Select)`
   padding:10px 18px;
 `;
 
-const DropdownExample = () => {
+const DropdownExample = ({ placeholder, option }: any) => {
   const [selectedOption, setSelectedOption] = useState('hi');
 
   const handleChange = ({event}:any) => {
@@ -24,9 +24,9 @@ const DropdownExample = () => {
       className="mb-3 signup-form-input-large"
       value={selectedOption}
       onChange={handleChange}
-      placeholder='Country'
+      placeholder={placeholder}
     >
-      <option value="">Country</option>
+      <option value="" selected>{placeholder}</option>
       <option value="1">One</option>
       <option value="2">Two</option>
       <option value="3">Three</option>

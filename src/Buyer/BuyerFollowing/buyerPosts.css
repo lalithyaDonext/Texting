@@ -1,0 +1,11 @@
+.seller-post-title {
+  display: flex;
+  align-items: center;
+}
+
+.buyer-following-title-content{
+  margin-right: 10px;
+  margin-left:15px ;
+  font-weight: 600;
+  font-size: 32px;
+}

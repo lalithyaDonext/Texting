@@ -1,15 +1,15 @@
-html, body {
-    height: 100% !important;
-
+html,
+body {
+  height: 100% !important;
 }
-#root{
-    height: 100% !important;
+#root {
+  height: 100% !important;
 }
 
-.unik-app .row{
-    height: 100% !important;
+.unik-app .row {
+  height: 100% !important;
 
-    margin: 0;
+  margin: 0;
 }
 
 /*=======================================================================
@@ -17,147 +17,202 @@ html, body {
 =========================================================================*/
 
 .blur-eclipse {
-    background: linear-gradient(95.88deg, #9f00d9 0%, #00ddff 129.21%);
-    filter: blur(250px);
-    width: 211px;
-    height: 208px;
-    z-index: -5;
+  background: linear-gradient(95.88deg, #9f00d9 0%, #00ddff 129.21%);
+  filter: blur(250px);
+  width: 211px;
+  height: 208px;
+  z-index: -5;
 }
 
 #blur-eclipse-one {
-    position: absolute;
-    top: 259px;
-    right: 750px;
+  position: absolute;
+  top: 259px;
+  right: 750px;
 }
 #blur-eclipse-two {
-    position: absolute;
-    top: 20px;
-    right: 10px;
+  position: absolute;
+  top: 20px;
+  right: 10px;
 }
 #blur-eclipse-three {
-    position: absolute;
-    bottom: 0px;
-    right: -34px;
+  position: absolute;
+  bottom: 0px;
+  right: -34px;
 }
-
 
 /*=======================================================================
  Auth - Login
 =========================================================================*/
-.login-input{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 19px 24px;
-    gap: 8px;
-    max-width: 623px;
-    max-height: 62px;
-    height: 100%;
-    width: 100%;
-    border: 0.5px solid #0D6CAF;
-    background-color: transparent !important;
-    border-radius: 6px;
+.login-input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 24px;
+  gap: 8px;
+  max-width: 623px;
+  max-height: 62px;
+  height: 100%;
+  width: 100%;
+  border: 0.5px solid #0d6caf;
+  background-color: transparent !important;
+  border-radius: 6px;
 }
 
-.login-input::placeholder{
-    color: var(--text-colour-default, #000);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+.login-input::placeholder {
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
-.signup-input{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 19px 24px;
-    gap: 8px;
-    max-width: 479px;
-    max-height: 62px;
-    height: 100%;
-    width: 100%;
-    border: 0.5px solid #0D6CAF;
-    background-color: transparent !important;
-    border-radius: 6px;
+.signup-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 19px 24px;
+  gap: 8px;
+  max-width: 479px;
+  max-height: 62px;
+  height: 100%;
+  width: 100%;
+  border: 0.5px solid #0d6caf;
+  background-color: transparent !important;
+  border-radius: 6px;
 }
 
-.signup-input::placeholder{
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+.signup-input::placeholder {
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
-.signup-form-input{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 19px 24px;
-    gap: 8px;
-    max-width: 303.5px;
-    max-height: 44px;
-    height: 100%;
-    width: 100%;
-    border: 0.5px solid #0D6CAF;
-    background-color: transparent !important;
-    border-radius: 6px;
-    color: var(--text-colour-default, #000);
-
-    /* Texts/P2/Regular */
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+.signup-form-input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 24px;
+  gap: 8px;
+  max-width: 303.5px;
+  max-height: 44px;
+  height: 100%;
+  width: 100%;
+  border: 0.5px solid #0d6caf;
+  background-color: transparent !important;
+  border-radius: 6px;
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
 }
 
 .signup-form-input::placeholder {
-    color: var(--text-colour-default, #000);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-  }
-  
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
 
-  .signup-form-input-large{
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 19px 24px;
-    gap: 8px;
-    max-width: 623px;
-    max-height: 44px;
-    height: 100%;
-    width: 100%;
-    border: 0.5px solid #0D6CAF;
-    background-color: transparent !important;
-    border-radius: 6px;
-    color: var(--text-colour-default, #000);
+.signup-form-input-large {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 19px 24px;
+  gap: 8px;
+  max-width: 623px;
+  max-height: 44px;
+  height: 100%;
+  width: 100%;
+  border: 0.5px solid #0d6caf;
+  background-color: transparent !important;
+  border-radius: 6px;
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
 
-    /* Texts/P2/Regular */
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
+.signup-form-input-large::placeholder {
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
 
-  }
+.signup-form-input-text-area {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 10px 24px;
+  max-height: 106px;
+  max-width: 623px;
+  height: 100%;
+  width: 100%;
+  align-self: stretch;
+  border-radius: 4px;
+  border: 0.5px solid var(--secondary-colour-dark, #0d6caf);
+  background-color: transparent !important;
+}
 
-  .signup-form-input-large::placeholder {
-    color: var(--text-colour-default, #000);
-    font-family: Poppins;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 150%;
-  }
-  
+.signup-form-input-text-area::placeholder {
+  color: var(--text-colour-default, #000);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
 
+.signup-form-input-image {
+  display: flex;
+  width: 623px;
+  padding: 10px 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  border: 0.5px solid var(--secondary-colour-dark, #0d6caf);
+  background-color: transparent !important;
+}
 
+.signup-form-input-image input[type="file"] {
+  color: transparent;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+}
 
+.signup-form-input-image label {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-form-input-image-title {
+  color: var(--text-colour-default, #000);
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 200px;
+  max-height: 34px;
+  width: 100%;
+  height: 100%;
+}

@@ -1,0 +1,26 @@
+.search-bar {
+  width: 1235px;
+  height: 44px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 1 0 0;
+  border-radius: 4px;
+  background: var(--bg-grey, #f9f9f9);
+}
+
+.Search-icon {
+  color: black;
+  width: 24px;
+  height: 24px;
+}
+
+.search-text {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+}
