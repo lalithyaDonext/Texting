@@ -8,7 +8,6 @@
     justify-content: space-between;
     align-items: center;
     padding-left: 280px;
-    /* padding-right: 30px; */
     padding-top: 60px;
     padding-bottom: 60px;
     
@@ -78,7 +77,6 @@
     border-radius: 50%;
   }
   
-/* ...existing styles... */
 
 .search-wrapper {
     display: flex;
@@ -103,8 +101,6 @@
     padding: 4px ;
     margin-left: 10px;
     flex: 1;
-    
-    /* border-color: black; */
   }
   
   .dropdown-bar {
@@ -122,8 +118,6 @@
     background-position: right center;
     outline: none;
 
-    
-    
   }
   
   .Search-icon{
@@ -137,19 +131,13 @@
     margin-left: 15px;
     color: #000;
 text-align: center;
-
-/* Texts/P4/Regular */
 font-family: Poppins;
 font-size: 12px;
 font-style: normal;
 font-weight: 400;
 line-height: 150%;
   }
-  /* ...existing styles... */
-  
-  
 
-  
   .location-icon,
   .cart-icon {
     color: #777777;
