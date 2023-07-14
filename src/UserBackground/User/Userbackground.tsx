@@ -6,23 +6,18 @@ import SideBar from "../SideBar/SideBar";
 import Posts from "../../Seller/SellerPostViewProcess/Posts";
 import PostStepTwo from "../../Seller/SellerPostViewProcess/postStepTwo";
 import SellerFolowers from "../../Seller/SellerFollowers/SellerFolowers";
-
 import Notification from "../../Seller/SellerNotification/Notification";
 import SellerInbox from "../../Seller/SellerInbox/SellerInbox";
 import Inbox from "../../Seller/SellerInbox/Inbox";
-
-
-
 import SellerPostInDetail from '../../Seller/SellerPostInDetail/SellerPostInDetail';
-
-
-
-
 import EditPostStatus from '../../Seller/SellerPostEdit/EditPostStatus';
 import AddPostTwo from '../../Seller/SellerPostAdd/AddPostTwo';
 import AddpostSuccess from '../../Seller/SellerPostAdd/AddPostSuccess';
+import FollowingPostDetailed from '../../Buyer/BuyerFollowingPost/FollowingPostDetailed';
+import MyWalletConvert from '../../Buyer/BuyerMyWallet/MyWalletConvert';
 import BuyerProfile from "../../Buyer/BuyerProfile/BuyerProfile";
 import SendSms from "../../PopUpModals/SendSms";
+import BuyerFollowing from "../../Buyer/BuyerFollowing/BuyerFollowing";
 
 
 const UserBackground = () => {

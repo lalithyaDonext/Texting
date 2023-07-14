@@ -92,7 +92,7 @@ export const DivFormContentContainer = styled.div`
   justify-content: flex-end;
   align-items: flex-end;
   padding: 0px;
-  gap: 60px;
+  gap: 35px;
   width: 100%;
   @media only screen and (max-width: 576px)
   {
@@ -255,4 +255,55 @@ export const SignInFormFooter = styled.div`
   }
 `;
 
+export const DivSelectionContent = styled.div`
+display: flex;
+width: 641px;
+height: 750px;
+padding: 73px 32px;
+flex-direction: column;
+align-items: flex-end;
+gap: 95px;
+flex-shrink: 0;
+border-radius: 22px;
+background: rgba(255, 255, 255, 0.25);
+`;
 
+export const DivSelectionTitle = styled.div`
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 16px;
+`;
+
+export const DivSelectionButtons = styled.div`
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 32px;
+`;
+
+export const DivSelectionBottomContent = styled.div`
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+gap: 41px;
+align-self: stretch;
+`;
+
+export const DivSelectionBottomContentOne = styled.div`
+display: flex;
+padding: 8px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-end;
+gap: 8px;
+`;
+
+export const DivSelectionBottomContentTwo = styled.div`
+display: flex;
+padding: 8px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+gap: 8px;
+`;

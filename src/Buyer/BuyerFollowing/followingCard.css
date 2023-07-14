@@ -1,0 +1,49 @@
+.buyer-following-card{
+    width: 541.5px;
+    height: 116px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 6px; 
+    padding: 20px;
+    background: var(--card-gradient-2, linear-gradient(177deg, #FFF 0%, #FCF5FF 54.29%, #F0CCFD 100%));
+}
+
+.buyer-following-card-content{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+}
+
+.buyer-profile-img{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+}
+
+.following-name{
+    max-width: 60px;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+}
+
+.buyer-following-msg-count{
+    width:24px ;
+    height: 24px;
+    border-radius: 100%;
+    background-color: #9F00D9;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 255px;
+}
+
+.Search-following-sellers{
+    padding-top:50px;
+    padding-bottom: 40px;
+}

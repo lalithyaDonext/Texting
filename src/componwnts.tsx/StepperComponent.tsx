@@ -47,11 +47,11 @@ const StepLine = styled.div`
 const StepperComponent: React.FC = () => {
   return (
     <StepLine>
-      <NumberCircle isFirst>1</NumberCircle>
+      <NumberCircle >1</NumberCircle>
       <Line />
       <NumberCircle>2</NumberCircle>
       <Line />
-      <NumberCircle>3</NumberCircle>
+      <NumberCircle isFirst>3</NumberCircle>
       <Line />
       <NumberCircle>4</NumberCircle>
     </StepLine>

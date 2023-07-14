@@ -15,7 +15,7 @@ function App() {
   return (
   <Router>
     <Routes>
-      <Route path="/" element={<UserBackground />} />
+      <Route path="/" element={<Auth />} />
     </Routes>
     </Router>
   );

@@ -1,0 +1,36 @@
+.drop-down-main {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: stretch;
+    border-radius: 6px;
+    background: #FFF;
+    justify-content: space-between;
+  }
+  
+  .drop-down-select {
+    width: 492px;
+    height: 45px;
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Poppins';
+    color: var(--text-colour-default, #000);
+    opacity: 0.5;
+    line-height: 150%;
+    /* background-color: white; */
+    
+    padding: 12px;
+    -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  }
+  
+  .dropdown-arrow {
+    position: absolute;
+    right:26px;
+    top:0px;
+    bottom:0px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
