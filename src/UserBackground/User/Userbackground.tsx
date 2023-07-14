@@ -21,6 +21,9 @@ import SellerPostInDetail from '../../Seller/SellerPostInDetail/SellerPostInDeta
 import EditPostStatus from '../../Seller/SellerPostEdit/EditPostStatus';
 import AddPostTwo from '../../Seller/SellerPostAdd/AddPostTwo';
 import AddpostSuccess from '../../Seller/SellerPostAdd/AddPostSuccess';
+import BuyerProfile from '../../Buyer/BuyerProfile/BuyerProfile';
+import SmsSentSuccess from '../../PopUpModals/SmsSentSuccess';
+import SendSms from '../../PopUpModals/SendSms';
 
 
 const UserBackground = () => {
@@ -36,7 +39,7 @@ const UserBackground = () => {
         <div className="page-content">
           <div className="rounded-corner-space">
 
-            <Inbox/>
+            <BuyerProfile/>
 
 
           </div>
